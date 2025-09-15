@@ -3,3 +3,60 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+section {
+    max-width: 900px; /* ancho máximo centrado */
+    margin: 0 auto;
+    font-family: "Georgia", serif;
+    line-height: 1.6;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 40px; /* espacio entre noticias */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+article:last-child {
+    border-bottom: none;
+}
+
+article div {
+    flex: 2; /* el texto ocupa más espacio */
+}
+
+article figure {
+    flex: 1;
+    margin: 0;
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+/* Estilos de tipografía */
+article h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+article p {
+    margin: 8px 0;
+}
+
+article time {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+article small {
+    font-size: 0.85rem;
+    color: #777;
+}
