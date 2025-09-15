@@ -66,3 +66,27 @@
   background-color: #1E90FF;
   transform: scale(1.03);
 }
+.footer-news {
+  background-color: #0A1F44;
+  color: #cccccc;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 1.56rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-news-cont{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr  ;
+
+}
+.footer-news a {
+  color: #cccccc;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.footer-news strong {
+  color: #cccccc;
+  font-weight: bold;
+}
