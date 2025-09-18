@@ -66,6 +66,16 @@
 .search-results p:hover {
     background: #f1f1f1;
 }
+.highlight-news {
+    animation: highlightFade 2s ease-out;
+    background-color: yellow;
+    transition: background-color 2s ease-out;
+}
+
+@keyframes highlightFade {
+    from { background-color: yellow; }
+    to { background-color: transparent; }
+}
 .news-principalities{
   display: grid;
   grid-template-columns: 55% 0.1% 44.9%;
