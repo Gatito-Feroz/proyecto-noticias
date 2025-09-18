@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Noticiones</title>
+</head>
+<body>
+    <header class="header">
+        <!-- navbar -->
+        <nav class="navigation">
+            <h1>NOTICIONES</h1>
+            <!-- enlaces -->
+            <ul>
+               <li>Inicio</li>
+               <li>Nacional</li> 
+               <li>Internacional</li> 
+               <li>Deportes</li> 
+               <li>Cultura</li>  
+            </ul>
+
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Buscar noticias...">
+                <div id="searchResults" class="search-results"></div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <main>
+        <!-- noticias principales -->
+        <section class="news-principalities">
+            <!-- noticia principal -->
+            <article class="new-principal">
+                <figure>
+                    <img src="img/silksong.jpg" class="img-silksong">
+                </figure>
+                <p class="titulo-silksong">EL TAN ESPERADO EXTRENO DE SILKSONG</p>
+                <p class="texto-silksong">Tras más de seis años de espera, Hollow Knight: Silksong ya está disponible
+                    desde el 4 de septiembre
+                    de 2025. Team Cherry nos pone en la piel de Hornet en el reino de Pharloom, con nuevos enemigos,
+                    jefes y escenarios, llegando a PC, consolas y Game Pass en un estreno global que ha emocionado a
+                    millones de jugadores.</p>
+            </article>
+            <hr style="width: 1px; margin-top: 20px; height: 700px; background-color: gray; border: none;">
+            <!-- aside noticias más pequeñas -->
+            <aside class="aside-news-small">
+                <!-- tarjeta 1 -->
+                <article class="article-aside-news-small">
+                    <div class="div-aside-news-img-texto">
+                        <figure class="img-figure-small-news">
+                            <img src="img/noticia1 aside.webp" alt="Imagen noticia tarjeta 1">
+                        </figure>
+
+                        <div class="text-small-news">
+                            <!-- texto de las tarjetas -->
+                            <h3>Sobre Petro:</h3>
+                            <p>Petro responde a petición de Vargas Lleras de hundir la reforma tributaria.</p>
+                        </div>
+                    </div>
+                    <div class="enlarge-text-small-news">
+                        <!-- botón de expansión de los artículos -->
+                        <div></div>
+                        <button>Leer más</button>
+                    </div>
+                </article>
+
+                <!-- tarjeta 2 -->
+                <article class="article-aside-news-small">
+                    <div class="div-aside-news-img-texto">
+                        <figure class="img-figure-small-news">
+                            <img src="img/noticia2 aside.webp" alt="Imagen noticia tarjeta 2">
+                        </figure>
+                        <div class="text-small-news">
+                            <h3>Alrededor del País:</h3>
+                            <p>Remates de la Dian: apartamentos de hasta $1.800 millones.</p>
+                        </div>
+                    </div>
+                    <div class="enlarge-text-small-news">
+                        <div></div>
+                        <button>Leer más</button>
+                    </div>
+                </article>
+
+                <!-- tarjeta 3 -->
+                <article class="article-aside-news-small">
+                    <div class="div-aside-news-img-texto">
+                        <figure class="img-figure-small-news">
+                            <img src="img/noticia3 aside.webp" alt="Imagen noticia tarjeta 3">
+                        </figure>
+                        <div class="text-small-news">
+                            <h3>En el Mundo:</h3>
+                            <p>El papa León XIV está de cumpleaños: celebra 70 años.</p>
+                        </div>
+                    </div>
+                    <div class="enlarge-text-small-news">
+                        <div></div>
+                        <button>Leer más</button>
+                    </div>
+                </article>
+            </aside>
+        </section>
+        <hr>
+        <!-- tarjetas de abajo de las noticias principales -->
+        <section class="box-down-news">
+            <article class="box-down-news-1">
+                <figure>
+                    <img src="img/box-1.webp" alt="Imagen tarjeta 1 inferior">
+                </figure>
+                <div class="letters-down-news">
+                    <p><h2>Día del Aire Limpio:</h2> América Latina impulsa programas para reducir las emisiones
+                        y proteger la salud</p>
+                </div>
+                <button>ver mas</button>
+            </article>
+            <article class="box-down-news-2">
+                <figure>
+                    <img src="img/box-2.webp" alt="Imagen tarjeta 2 inferior">
+                </figure>
+                <div class="letters-down-news">
+                    <p><h2>Palestina e Israel</h2> drones rusos en Polonia, mujeres afganas... Las noticias del
+                        viernes</p>
+                </div>
+                <button>ver mas</button>
+            </article>
+            <article class="box-down-news-3">
+                <figure>
+                    <img src="img/box-3.webp" alt="Imagen tarjeta 3 inferior">
+                </figure>
+                <div class="letters-down-news">
+                    <p><h2>Revirtiendo la deforestación</h2> mediante el empoderamiento de las comunidades
+                        rurales en América del Sur</p>
+                </div>
+                <button>ver mas</button>
+            </article>
+            <article class="box-down-news-4">
+                <figure>
+                    <img src="img/box-4.webp" alt="Imagen tarjeta 4 inferior">
+                </figure>
+                <div class="letters-down-news">
+                    <p><h2>Innovación en energía renovable:</h2>Nuevas tecnologías emergen en América Latina
+                        para un futuro sostenible</p>
+                </div>
+                <button>ver mas</button>
+            </article>
+        </section>
+        <hr>
+
+        <!-- noticias largas horizontales -->
+        <section class="news-horizontal">
+            <!-- Noticia 1 -->
+            <article class="news-article-horizontal">
+                <div>
+                    <p><time datetime="2025-09-13">Sept. 15, 2025</time></p>
+                    <h2>Descertifican a Colombia de la lucha contra el narcotráfico; Casa Blanca confirmó la medida, con
+                        condiciones</h2>
+                    <p>
+                        El Primer mandatario cuestionó la decisión del país norteamericano, en tanto Colombia ha
+                        realizado esfuerzos por evitar que las drogas lleguen a Norteamérica.
+                    </p>
+                    <p><small>By Redaccion del pais</small></p>
+                </div>
+                <figure>
+                    <img src="img/eeuu.jpg" alt="Construcción en calor extremo">
+                </figure>
+            </article>
+
+            <!-- Noticia 2 -->
+            <article class="news-article-horizontal">
+                <div>
+                    <p><time datetime="2025-09-13">Sept. 15, 2025</time></p>
+                    <h2>Dólar en Colombia sigue cediendo este lunes y ya se negocia por debajo de los $3.900</h2>
+                    <p>
+                        La moneda gringa abrió en la mañana de este lunes en un promedio de $3.889,36. Eso quiere decir
+                        que su negociación se ubicó $16,88 por debajo de la Tasa Representativa del Mercado, TRM, que
+                        para hoy es de $3.906,24.
+                    <p><small>By Andrés Villamizar</small></p>
+                </div>
+                <figure>
+                    <img src="img/dolar.jpg" alt="Tejados de zinc en París">
+                </figure>
+            </article>
+
+            <!-- Noticia 3 -->
+            <article class="news-article-horizontal">
+                <div>
+                    <p><time datetime="2025-09-12">Sept. 15, 2025</time></p>
+                    <h2>Senadora petrista criticó la certificación de EE. UU. a Colombia en la lucha contra el
+                        narcotráfico: “Es un mecanismo de presión”</h2>
+                    <p>
+                        Isabel Zuleta afirmó que el proceso de evaluación sobre combate al tráfico de drogas no es justo
+                        ni equilibrado, y acusó a la nación que lidera Donald Trump de intentar convertirse en un
+                        “verificador” de políticas internacionales, mientras ignora sus propios problemas
+                    </p>
+                    <p><small>BY Katherine Lancheros</small></p>
+                </div>
+                <figure>
+                    <img src="img/senadora.jpg" alt="Daños por huracán en Puerto Rico">
+                </figure>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="footer-news">
+        <div class="footer-news-cont">
+            <div class="footer-section">
+                <a href="contacto.html">Contacto</a>
+            </div>
+
+            <div class="footer-section">
+                <p>@proyecto-git</p>
+            </div>
+
+            <div class="footer-section">
+                <p>&copy; 2025 <strong>SENA</strong>. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="app.js"></script>
+</body>
+
+</html>
