@@ -79,7 +79,8 @@
 
 main {
   position: relative;
-  min-height: 95vh; /* O la altura que desees para tu main */
+  min-height: 80vh; /* O la altura que desees para tu main */
+  overflow:scroll;
 }
 
 .news-principalities{
@@ -302,12 +303,9 @@ margin-top: 5rem;
 
 .modal-section{
   width: 100%;
-  height: 100%; 
+  height: max-fit; 
   background-color: rgba(255, 255, 255);
   position: absolute;
-  z-index: 10;
-  margin: auto;
-  top: 0;
   display: none;
   align-content: center;
   justify-items:  center;
@@ -370,8 +368,14 @@ margin-top: 5rem;
   text-align: justify;
 }
 
-.detailed-img1, .detailed-img2, .detailed-img3, .detailed-img4, .detailed-img5, .detailed-img6, .detailed-img7 {
-  width: 65%;
-  justify-self: center;
+.detailed-img1 img, .detailed-img2 img, .detailed-img3 img, .detailed-img4 img, .detailed-img5 img, .detailed-img6 img, .detailed-img7 img{
+  width: 100%;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.detailed-img1, .detailed-img2, .detailed-img3, .detailed-img4, .detailed-img5, .detailed-img6, .detailed-img7{
+  width: 800px;
+  margin-left: 50px;
   margin-bottom: 50px;
 }
