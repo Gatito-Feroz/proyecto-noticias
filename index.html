@@ -51,7 +51,7 @@
                     <div class="enlarge-text-small-news">
                         <!-- botón de expansión de los artículos -->
                         <div></div>
-                        <button OnClick="openModal()">Leer más</button>
+                        <button id="detailed-btn1" data-target="detailed-art1" OnClick="openModal(); showArticle(this)">Leer más</button>
                     </div>
                 </article>
 
@@ -68,7 +68,7 @@
                     </div>
                     <div class="enlarge-text-small-news">
                         <div></div>
-                        <button OnClick="openModal()">Leer más</button>
+                        <button id="detailed-btn2" data-target="detailed-art2" OnClick="openModal(); showArticle(this)">Leer más</button>
                     </div>
                 </article>
 
@@ -85,7 +85,7 @@
                     </div>
                     <div class="enlarge-text-small-news">
                         <div></div>
-                        <button OnClick="openModal()">Leer más</button>
+                        <button id="detailed-btn3" data-target="detailed-art3" OnClick="openModal(); showArticle(this)">Leer más</button>
                     </div>
                 </article>
             </aside>
@@ -101,7 +101,7 @@
                     <p><strong>Día del Aire Limpio:</strong> América Latina impulsa programas para reducir las emisiones
                         y proteger la salud</p>
                 </div>
-                <button OnClick="openModal()">ver mas</button>
+                <button id="detailed-btn4" data-target="detailed-art4" OnClick="openModal(); showArticle(this)">ver mas</button>
             </article>
             <article class="box-down-news-2">
                 <figure>
@@ -111,7 +111,7 @@
                     <p><strong>Palestina e Israel</strong> drones rusos en Polonia, mujeres afganas... Las noticias del
                         viernes</p>
                 </div>
-                <button OnClick="openModal()">ver mas</button>
+                <button id="detailed-btn5" data-target="detailed-art5" OnClick="openModal(); showArticle(this)">ver mas</button>
             </article>
             <article class="box-down-news-3">
                 <figure>
@@ -121,7 +121,7 @@
                     <p><strong>Revirtiendo la deforestación</strong> mediante el empoderamiento de las comunidades
                         rurales en América del Sur</p>
                 </div>
-                <button OnClick="openModal()">ver mas</button>
+                <button id="detailed-btn6" data-target="detailed-art6" OnClick="openModal(); showArticle(this)">ver mas</button>
             </article>
             <article class="box-down-news-4">
                 <figure>
@@ -131,7 +131,7 @@
                     <p><strong>Innovación en energía renovable:</strong>Nuevas tecnologías emergen en América Latina
                         para un futuro sostenible</p>
                 </div>
-                <button OnClick="openModal()">ver mas</button>
+                <button id="detailed-btn7" data-target="detailed-art7" OnClick="openModal(); showArticle(this)">ver mas</button>
             </article>
         </section>
         <hr>
@@ -191,6 +191,47 @@
         </section>
         <section class="modal-section" id="id01">
             <span onclick="closeModal()" class="display-topright">&times;</span>
+
+            <article id="detailed-art1" class="detailed-art1">
+                <h1>“Indolentes”: Petro responde a petición de Vargas Lleras de hundir la reforma tributaria</h1>
+                <h2>Germán Vargas Lleras les pidió a los congresistas hundir la reforma tributaria por el “futuro de la democracia”. El presidente Gustavo Petro defendió su gestión y destacó cifras en materia de empleo y entrega de tierras.</h2>
+                <figure class="detailed-img1">
+                    <img src="img/noticia1 aside.webp" alt="Imagen noticia tarjeta 1">
+                </figure>
+                <p>
+                    El presidente Gustavo Petro respondió a las críticas del exvicepresidente y líder de Cambio Radical Germán Vargas Lleras, quien le pidió al Congreso hundir la reforma tributaria por el “futuro de la democracia”. El jefe de Estado defendió su gestión y cuestionó las medidas económicas de los anteriores mandatos. 
+                    <br><br> Lea: Uribe y Vargas cocinan fórmula electoral para atajar reelección del proyecto petrista.
+                    <br><br> Vargas Lleras, quien se prepara para lanzar su aspiración presidencial en octubre, hizo fuertes críticas contra la reforma tributaria por $26 billones que radicó el Ministerio de Hacienda ante el Legislativo. Catalogó al Gobierno de “nefasto” y de querer "expropiar la renta y el patrimonio de los contribuyentes".
+                    <br><br> Sus cuestionamientos los expuso en su columna dominical de El Tiempo, en la que también trajo a colación los recursos que no fueron ejecutados el año pasado por el gabinete ministerial de Petro: “Se dejaron de ejecutar $80 billones y a julio de este año el Gobierno registra un atraso en la ejecución de $70 billones. ¿Para qué, entonces, requiere una reforma tributaria de esta magnitud? La respuesta es evidente, para incidir en las elecciones del 2026″.
+                </p>
+            </article>
+            <article id="detailed-art2" class="detailed-art2">
+                <h1>Remates de la Dian en septiembre: bodegas desde $4 millones y apartamentos de hasta $1.800 millones</h1>
+                <h2>La Dian abrió remates de bienes este mes con precios que representan una opción para inversionistas y compradores.</h2>
+                <figure class="detailed-img2">
+                    <img src="img/noticia2 aside.webp" alt="Imagen noticia tarjeta 2">
+                </figure>
+                <p>
+                    La Dirección de Impuestos y Aduanas Nacionales (Dian) publicó el catálogo de remates de bienes para septiembre, en el que aparecen inmuebles con precios que van desde bodegas por menos de $5 millones hasta apartamentos con avalúos cercanos a los $1.800 millones. 
+                    <br><br> Entre los bienes más llamativos está una bodega en Armenia, Quindío, con un precio base de $4.476.150, cuya subasta se realizará el 24 de septiembre. En la misma ciudad, otra bodega más amplia saldrá a remate un día después por $11.935.350. En Bogotá, un garaje de 21,5 metros cuadrados tiene como precio base $52.114.650, con audiencia el 15 de septiembre.
+                    <br><br> En el segmento de vivienda, sobresale un apartamento en la capital de 430 metros cuadrados, valorado en $1.849 millones, con remate programado para el 15 de septiembre. En Villavicencio, un apartamento en el Conjunto Multifamiliares Manantial saldrá con avalúo de $56.864.000 y precio base de $39.804.800, con audiencia el 16 de septiembre. En Montenegro, Quindío, se ofertará una casa de dos plantas por $204.153.600.
+                </p>
+            </article>
+            <article id="detailed-art3" class="detailed-art3">
+                art3
+            </article>
+            <article id="detailed-art4" class="detailed-art4">
+                art4
+            </article>
+            <article id="detailed-art5" class="detailed-art5">
+                art5
+            </article>
+            <article id="detailed-art6" class="detailed-art6">
+                art6
+            </article>
+            <article id="detailed-art7" class="detailed-art7">
+                art7
+            </article>
         </section>
     </main>
 
